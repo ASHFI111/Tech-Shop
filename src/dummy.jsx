@@ -1,6 +1,6 @@
 {/* <div className="p-6">
   {activeTab === "specifications" && (
-    <div className="text-white space-y-3">
+    <div className="text-red space-y-3">
       <h3 className="text-xl font-semibold mb-4 text-red-400">Technical Specifications</h3>
       <div className="grid grid-cols-2 gap-4">
         <div className="flex">
