@@ -8,7 +8,7 @@ const App = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsLoading(false);
+      setIsLoading(true);
     }, 2000); // 2 seconds
 
     return () => clearTimeout(timer);
